@@ -1,7 +1,6 @@
 const lists = document.querySelectorAll("nav ul li");
 const images = document.querySelectorAll(".content");
 
-
 // My Logic
 lists.forEach((list, idx) => {
   list.addEventListener("click", () => {
